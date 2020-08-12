@@ -22,4 +22,9 @@ export default class CustomerList extends LightningElement {
             this.customers = value.data;
         }
     }
+
+    publishSelect(event) {
+        console.log(event.detail);
+    }
+
 }
